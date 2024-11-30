@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Defko Website
 
-## Getting Started
+Site web de l'agence de développement et de conseil en IT - Defko, développé avec Next.js et Tailwind CSS.
 
-First, run the development server:
+## 🚀 Technologies
+
+- Next.js 13 avec App Router
+- TypeScript
+- Tailwind CSS
+- Lucide React pour les icônes
+
+## 🛠 Installation
 
 ```bash
+# Cloner le projet
+git clone https://github.com/defko-team/defko-website.git
+
+# Aller dans le dossier
+cd defko-website
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Structure du projet
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+defko-website/
+├── app/                    # App Router de Next.js
+├── components/            # Composants React réutilisables
+│   ├── home/             # Composants spécifiques à la page d'accueil
+│   └── layout/           # Composants de mise en page
+├── public/               # Assets statiques
+└── styles/              # Styles globaux
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Environnement de développement
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Node.js 18+
+- npm ou yarn
